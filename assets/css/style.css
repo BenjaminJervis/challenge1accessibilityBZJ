@@ -1,21 +1,21 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; <!== "This is the background color"
 }
 
-.header {
+.header { <!== "This is the CCS style for the header ==>"
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.header h1 { <! == This is the biggest header on the website ==> 
     display: inline-block;
     font-size: 48px;
 }
@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header div { <!== "This is the div created for the header"
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -59,23 +59,23 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left { <!== This positions the box left ==> 
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { <!== "This positions the box right" ==> 
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.content { <!== "This style is for the content" ==> 
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.benefits { <!== This style uses a number of fonts ==> 
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -134,7 +134,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.search-engine-optimization { <!== "This positions the box left" ==> 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +143,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+.online-reputation-management { <!== "This style is for the section which displays online RM" ==> 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +152,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+.social-media-marketing { <!== This style is for the section which displays social media section ==> 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,15 +161,15 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.search-engine-optimization img { <!==This sets image at max height 150px"==>
     max-height: 150px;
 }
 
-.online-reputation-management img {
+.online-reputation-management img { <!==This sets image at max height 150px"==>
     max-height: 150px;
 }
 
-.social-media-marketing img {
+.social-media-marketing img { <!==This sets image at max height 150px"==>
     max-height: 150px;
 }
 
@@ -188,7 +188,7 @@ p {
     font-size: 36px;
 }
 
-.footer {
+.footer { <!=="This sets footer style" ==>
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
